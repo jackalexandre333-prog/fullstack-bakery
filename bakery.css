@@ -32,19 +32,23 @@ ul {
 }
 nav {
   display: flex;
-  gap: 1ch;
+  gap: 1.5rem;
   justify-content: right;
-  align-items: center;
+  align-items: flex-start;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+
 main {
   display: flex;
   flex-grow: 1;
   gap: 1ch;
   justify-content: left;
   align-items: left;
+}
+main p {
+  margin: 0.25rem 0;
 }
 .testimonial {
   background-color: lightgray;
