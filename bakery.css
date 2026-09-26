@@ -17,6 +17,7 @@ body {
   flex-direction: column;
   font-family: arial, sans-serif;
   font-size: 15px;
+  min-height: 100vh;
 }
 ul {
   display: flex;
@@ -25,22 +26,38 @@ ul {
   height: 25vh;
   width: 150px;
   font-family: Arial, sans-serif;
-  justify-content: left;
-  align-items: left;
+  margin: 0;
+  padding: 0;
 }
 nav {
   display: flex;
   gap: 1ch;
   justify-content: right;
   align-items: center;
-  font-size: 20px;
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+}
+main {
+  display: flex;
+  flex-grow: 1;
+  gap: 1ch;
+  justify-content: left;
+  align-items: left;
+}
+.testimonial {
+  background-color: lightgray;
 }
 
 article {
   display: flex;
   flex-direction: column;
+  width: 800px;
+
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  min-height: 100vh;
 }
 #bread {
   display: flex;
