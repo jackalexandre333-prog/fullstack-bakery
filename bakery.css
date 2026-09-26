@@ -1,0 +1,84 @@
+.brand {
+  font-size: 50px;
+  color: red;
+  margin-top: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+  height: 25vh;
+  width: 150px;
+  font-family: Arial, sans-serif;
+  justify-content: left;
+  align-items: left;
+}
+nav {
+  display: flex;
+  gap: 1ch;
+  justify-content: right;
+  align-items: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+#bread {
+  display: flex;
+  font-size: 25px;
+  background-color: rgb(182, 29, 29);
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}
+#cakes {
+  display: flex;
+  font-size: 25px;
+  background-color: rgb(182, 29, 29);
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}
+#cookies {
+  display: flex;
+  font-size: 25px;
+  background-color: rgb(182, 29, 29);
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}
+#muffins {
+  display: flex;
+  font-size: 25px;
+  background-color: rgb(182, 29, 29);
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}
+#pies {
+  display: flex;
+  font-size: 25px;
+  background-color: rgb(182, 29, 29);
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}
